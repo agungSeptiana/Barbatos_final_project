@@ -1,0 +1,24 @@
+.foot1 {
+  margin-left: 100px;
+}
+
+.foot2 {
+  margin-left: 100px;
+}
+
+.foot3 {
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .foot1 {
+    margin-left: 30%;
+  }
+  .foot2 {
+    margin-left: 15%;
+  }
+
+  .foot3 {
+    margin-left: 25%;
+  }
+}
