@@ -8,14 +8,12 @@
                     {{ __('Products') }}
                 </h6>
                 <div class="ml-auto">
-                    @can('product_create')
                     <a href="{{ route('admin.products.create') }}" class="btn btn-primary">
                         <span class="icon text-white-50">
                             <i class="fa fa-plus"></i>
                         </span>
                         <span class="text">{{ __('New product') }}</span>
                     </a>
-                    @endcan
                 </div>
             </div>
             <div class="table-responsive">
